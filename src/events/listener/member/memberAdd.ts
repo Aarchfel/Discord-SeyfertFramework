@@ -1,10 +1,10 @@
 import { createEvent } from 'seyfert';
-import { handleAuditLogMemberAdd } from 'src/events/helper/handle/guild/auditlog.memberAdd';
+import { handleAuditLogMemberAdd } from 'src/events/helper/handle/member/auditlog.memberAdd';
 import {
   buildGCIContext,
   sendGreetDM,
   sendWelcomeCard,
-} from 'src/events/helper/handle/guild/welcome.memberAdd';
+} from 'src/events/helper/handle/member/welcome.memberAdd';
 import { getGuildConfig } from 'src/utils/database/guildConfig';
 
 export default createEvent({

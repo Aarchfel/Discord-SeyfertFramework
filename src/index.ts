@@ -1,8 +1,6 @@
 import './seyfert.d.ts';
 import { Client, MessageFlags } from 'seyfert';
 import { createMusicClient } from './hoshimi.js';
-import { QOTDTask } from './tasks/qotd.js';
-import { AnonLogCleaupTask } from './tasks/anonlogCleanup.js';
 import { loadAnonChCache } from './utils/cache/anonWebhook.js';
 import { plug } from './plugins.js';
 

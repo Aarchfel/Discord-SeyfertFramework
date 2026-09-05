@@ -1,7 +1,7 @@
 import { createEvent } from 'seyfert';
-import { handleAuditLogMemberDelete } from 'src/events/helper/handle/guild/auditlog.memberDelete';
-import { sendLeaveCard } from 'src/events/helper/handle/guild/leave.memberDelete';
-import { buildGCIContext } from 'src/events/helper/handle/guild/welcome.memberAdd';
+import { handleAuditLogMemberDelete } from 'src/events/helper/handle/member/auditlog.memberDelete';
+import { sendLeaveCard } from 'src/events/helper/handle/member/leave.memberDelete';
+import { buildGCIContext } from 'src/events/helper/handle/member/welcome.memberAdd';
 import { getGuildConfig } from 'src/utils/database/guildConfig';
 
 export default createEvent({

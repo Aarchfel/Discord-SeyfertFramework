@@ -1,9 +1,9 @@
 import { Guild, MessageFlags, UsingClient } from 'seyfert';
-import { buildGCIContext } from './welcome.memberAdd';
 import { resolvePlaceholder } from 'src/utils/formatter/placeholder';
 import { getRawFile } from 'src/utils/files/getRawFile';
 import { buildV2Container } from 'src/utils/formatter/compoParser';
 import { defaultTemp } from 'src/utils/imgUpload';
+import { buildGCIContext } from './welcome.memberAdd';
 
 export async function sendLeaveCard(
   mem: any,
